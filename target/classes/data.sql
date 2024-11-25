@@ -1,0 +1,16 @@
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Peter Quill', 'Senhor das Estrelas Sem Mapa', 'Perdido no Espaço', 52.0, '1980-06-28');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Bruce Banner', 'Hulk Esmaga... às vezes', 'Irritação Variável', 88.0, '1975-04-19');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Thor Odinson', 'Deus do Trovão Sem Martelo', 'Perdeu Mjolnir', 75.0, '1963-11-02');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Dinah Lance', 'Canário Desafinado', 'Grito Sobrevalorizado', 63.0, '1981-07-24');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Clint Barton', 'Gavião Arqueiro Mira na Lua', 'Flechas Otimistas', 60.0, '1976-03-07');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Barry Allen', 'Flash Tropeçando', 'Velocidade Inconsistente', 90.0, '1992-03-11');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Hal Jordan', 'Lanterna Verde Com Bateria Fraca', 'Anel Descarregado', 65.0, '1971-02-20');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Selina Kyle', 'Mulher-Gato Com Alergia', 'Afinidade Felina Questionável', 54.0, '1987-03-14');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Victor Stone', 'Cyborgue Offline', 'Tecnologia Defasada', 70.0, '1992-09-08');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Steve Rogers', 'Capitão América Aposentado', 'Moral Antiquada', 50.0, '1918-07-04');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Oliver Queen', 'Arqueiro Verde Nem Tão Letal', 'Precisão Quase Perfeita', 45.0, '1985-05-16');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Matt Murdock', 'Demolidor que tropeça', 'Superaudição', 40.0, '1982-07-15');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Jean Grey', 'Fênix Levemente Aquecida', 'Telepatia Básica', 48.0, '1986-09-09');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Wanda Maximoff', 'Feiticeira Escarlate com Alergia', 'Magia Vermelha', 55.0, '1989-10-28');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Jon Osterman', 'Dr. Onipresente Azulado', 'Manipulação da Realidade', 100.0, '1929-08-14');
+INSERT INTO Personagem (nome, codinome, habilidade, poder, data_nascimento) VALUES ('Bruce Wayne', 'Morcegão', 'Dinheiro', 99.9, '1972-04-17');
