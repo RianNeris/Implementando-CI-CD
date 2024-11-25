@@ -25,7 +25,7 @@ public class PersonagemCriacaoDto {
         this.nome = p.getNome();
         this.codinome = p.getCodinome();
         this.habilidade = p.getHabilidade();
-        this.poder = p.getPoder();
+        this.poder = p.getPoder() != null ? p.getPoder() : 0.0;
     }
 
     public LocalDate getDataNascimento() {

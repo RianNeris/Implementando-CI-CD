@@ -49,7 +49,7 @@ public class PersonagemConsultaDto {
             return "Forte";
 
         } else if (poder > 80) {
-            return "Muito Forte";
+            return "Super poderoso";
         }
         return null;
     }
