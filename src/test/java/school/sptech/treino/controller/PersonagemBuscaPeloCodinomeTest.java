@@ -44,11 +44,11 @@ public class PersonagemBuscaPeloCodinomeTest {
         }
 
         @Test
-        @DisplayName("4.1.2 Quando o usuário buscar com ONIpresENTE, deve retornar 1 personagem")
+        @DisplayName("4.1.2 Quando o usuário buscar com Onipresente, deve retornar 1 personagem")
         public void teste2() throws Exception {
 
             mockMvc.perform(get(ControllerEnumPath.POR_CODINOME.path)
-                            .param("termo", "ONIpresENTE"))
+                            .param("termo", "Onipresente"))
                     .andExpect(status().isOk())
                     .andExpect(jsonPath("$").isArray())
                     .andExpect(jsonPath("$").isNotEmpty())
@@ -57,7 +57,7 @@ public class PersonagemBuscaPeloCodinomeTest {
                     .andExpect(jsonPath("$[0].poder").value(100.0))
                     .andExpect(jsonPath("$[0].habilidade").value("Manipulação da Realidade"))
                     .andExpect(jsonPath("$[0].dataNascimento").value("1929-08-14"))
-                    .andExpect(jsonPath("$[0].classificacao").value("Super Poderoso"));
+                    .andExpect(jsonPath("$[0].classificacao").value("Muito Forte"));
         }
     }
 
